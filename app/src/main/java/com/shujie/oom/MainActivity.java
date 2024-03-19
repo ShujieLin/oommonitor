@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Used to load the 'oom' library on application startup.
     static {
-        System.loadLibrary("oom");
+        System.loadLibrary("native_leak");
     }
 
     private ActivityMainBinding binding;
